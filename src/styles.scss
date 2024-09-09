@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+
+
+html, body { height: 90%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
+
+.mat-mdc-list-option .mdc-radio{
+  display: none !important;
+}
+
+mat-list-option[aria-selected="true"] {
+  background: rgba(60, 20, 170, 0.7);
+  color:aliceblue;
+
+}
+
+.text-center{
+  text-align: center;
+}
+
+.top-left .mat-grid-tile-content {
+  justify-content: start !important ;
+  align-items: start !important;
+}
+
+.grid-resume{
+  margin-top: 5%;
+}
