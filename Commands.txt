@@ -1,0 +1,2 @@
+Deploy
+ng deploy --base-href=/CurriculumVitae/ --dir=./dist/hoja-de-vida --repo=https://github.com/Reonburakku/CurriculumVitae.git
