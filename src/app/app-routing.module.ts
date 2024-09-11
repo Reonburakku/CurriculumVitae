@@ -8,17 +8,17 @@ import { MatGridListModule } from '@angular/material/grid-list';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: ':lang/home',
     component: AppComponent
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'es/home',
     pathMatch: 'full'
   },
   {
     path: '**',
-    redirectTo: 'home',
+    redirectTo: 'es/home',
     pathMatch: 'full'
   }
 ];

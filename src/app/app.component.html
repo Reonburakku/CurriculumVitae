@@ -6,15 +6,42 @@
     src="https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Assets/Logo+Manuel.png"
   />
     <div class="spacer"></div>
-    <a aria-label="Angular on twitter" target="_blank" rel="noopener" href="www.linkedin.com/in/manuel-fernando-mendez-cardoso-21a90361" title="Twitter">
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="24" height="24" viewBox="0 0 24 24"><path fill="#FFFFFF" d="M21,21H17V14.25C17,13.19 15.81,12.31 14.75,12.31C13.69,12.31 13,13.19 13,14.25V21H9V9H13V11C13.66,9.93 15.36,9.24 16.5,9.24C19,9.24 21,11.28 21,13.75V21M7,21H3V9H7V21M5,3A2,2 0 0,1 7,5A2,2 0 0,1 5,7A2,2 0 0,1 3,5A2,2 0 0,1 5,3Z" /></svg>
-    </a>
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Language menu">
+      @if(language == "en"){
+        <img
+          class="icon"
+          [src]="enIcon"
+        />
+      }
+      @else {
+        <img
+          class="icon"
+          [src]="esIcon"
+        />
+      }
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item (click)="goToPage('/es/home')">
+        <img
+          class="icon"
+          [src]="esIcon"
+        />
+        <span> Español</span>
+      </button>
+      <button mat-menu-item (click)="goToPage('/en/home')">
+        <img
+          class="icon"
+          [src]="enIcon"
+        />
+        <span> English</span>
+      </button>
+    </mat-menu>
 </div>
 
 <div class="content" role="main">
   <mat-drawer-container class="nav-container">
     <mat-drawer mode="side" opened>
-      <h1 color="primary"><b>CONTENIDO:</b></h1>
+      <h1 color="primary"><b>{{ basicText.content }}:</b></h1>
       <form [formGroup]="form">
         <mat-selection-list #menuList [formControl]="menuControl" name="menu" [multiple]="false" value="Experiences">
           @for (opt of menuOptions; track opt) {
@@ -22,12 +49,16 @@
           }
         </mat-selection-list>
       </form>
+      <br />
+      <a aria-label="Angular on twitter" target="_blank" rel="noopener" href="www.linkedin.com/in/manuel-fernando-mendez-cardoso-21a90361" title="Twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="24" height="24" viewBox="0 0 24 24"><path fill="#FFFFFF" d="M21,21H17V14.25C17,13.19 15.81,12.31 14.75,12.31C13.69,12.31 13,13.19 13,14.25V21H9V9H13V11C13.66,9.93 15.36,9.24 16.5,9.24C19,9.24 21,11.28 21,13.75V21M7,21H3V9H7V21M5,3A2,2 0 0,1 7,5A2,2 0 0,1 5,7A2,2 0 0,1 3,5A2,2 0 0,1 5,3Z" /></svg>
+      </a>
     </mat-drawer>
     <mat-drawer-content>
-      @if(menuList._value == null || menuList._value[0] == "resume") {
-        <h1 class="text-center">Resume</h1>
+      @if(menuList._value == null || menuList._value[0] == "1") {
+        <h1 class="text-center">{{ resumeText.title }}</h1>
         <mat-grid-list class="grid-resume" cols="2" rowHeight="2:1">
-          <mat-grid-tile class="top-left">SQL and .Net developer with the capacity of create new alternatives with efficiency and effectiveness to acquire new knowledge in different functional areas, with high values as honesty, morality, responsibility, solidarity and respect. I have great teamwork, decisioning and leadership capacity. I have domain in SQL, C#, JavaScript, HTML5, CSS3, among other programming languages, as well as the knowledge in tools as ASP.NET, SQL Server, AWS services. Good use of english and spanish.</mat-grid-tile>
+          <mat-grid-tile class="top-left">{{ resumeText.profile }}</mat-grid-tile>
           <mat-grid-tile><img
             width="50%"
             alt="Angular Logo"
@@ -35,18 +66,17 @@
           /></mat-grid-tile>
         </mat-grid-list>
       }
-      @if(menuList._value ? menuList._value[0] == "experiences" : false) {
-        <h1 class="text-center">Experiences</h1>
+      @if(menuList._value ? menuList._value[0] == "2" : false) {
+        <h1 class="text-center">Experiencias</h1>
       }
-      @if(menuList._value ? menuList._value[0] == "formation" : false) {
-        <h1 class="text-center">Formation</h1>
+      @if(menuList._value ? menuList._value[0] == "3" : false) {
+        <h1 class="text-center">Formación</h1>
       }
-      @if(menuList._value ? menuList._value[0] == "certificates" : false) {
+      @if(menuList._value ? menuList._value[0] == "4" : false) {
         <h1 class="text-center">Certificates</h1>
       }
     </mat-drawer-content>
   </mat-drawer-container>
 </div>
-
 
 <router-outlet></router-outlet>
