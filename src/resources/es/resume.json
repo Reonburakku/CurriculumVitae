@@ -1,30 +1,4 @@
 {
-  "basic":{
-    "title":"Hoja de vida",
-    "content":"Contenido"
-  },
-  "menu":[
-    {
-      "value":"1",
-      "name":"Perfil",
-      "checked":"true"
-    },
-    {
-      "value":"2",
-      "name":"Experiencias",
-      "checked":"false"
-    },
-    {
-      "value":"3",
-      "name":"Formación",
-      "checked":"false"
-    },
-    {
-      "value":"4",
-      "name":"Certificados",
-      "checked":"false"
-    }
-  ],
   "resume":{
     "title":"Currículum profesional",
     "profile":"Desarrollador SQL y .Net con capacidad de crear nuevas alternativas con eficiencia y eficacia para adquirir nuevos conocimientos en diferentes áreas funcionales, con altos valores como honestidad, moralidad, responsabilidad, solidaridad y respeto. Tengo una gran capacidad de trabajo en equipo, decisión y liderazgo. Tengo dominio en SQL, C#, JavaScript, HTML5, CSS3, entre otros lenguajes de programación, así como el conocimiento en herramientas como ASP.NET, SQL Server, servicios AWS. Buen uso del inglés y el español."

@@ -1,0 +1,31 @@
+{
+  "formation":[
+    {
+      "id":"1",
+      "year":"2021",
+      "name":"Tecnología en informática",
+      "thechnology":"Pregrado",
+      "institute":"UNIMINUTO",
+      "location":"Bogotá",
+      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Formation/Diploma-Tecnologia.png"
+    },
+    {
+      "id":"2",
+      "year":"2022",
+      "name":"Curso de optimización de bases de datos",
+      "thechnology":"SQL server",
+      "institute":"Platzi",
+      "location":"Bogotá",
+      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Assets/Certifications/diploma-optimizacion-sql-server.png "
+    },
+    {
+      "id":"3",
+      "year":"2022",
+      "name":"Curso de administración de bases de datos",
+      "thechnology":"Data Bases",
+      "institute":"Udemy",
+      "location":"Bogotá",
+      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Assets/Certifications/SQL+DBA+Udemy.jpg"
+    }
+  ]
+}

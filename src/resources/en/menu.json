@@ -1,0 +1,22 @@
+{
+  "menu":[{
+    "value":"1",
+    "name":"Resume",
+    "checked":"true"
+  },
+  {
+    "value":"2",
+    "name":"Experiences",
+    "checked":"false"
+  },
+  {
+    "value":"3",
+    "name":"Formation",
+    "checked":"false"
+  },
+  {
+    "value":"4",
+    "name":"Certificates",
+    "checked":"false"
+  }]
+}

@@ -1,12 +1,11 @@
 import { BooleanInput } from '@angular/cdk/coercion';
 import { Component } from '@angular/core';
 import {FormControl, FormGroup } from '@angular/forms';
+import { Utils } from '../utils/Utils'
 import { GlobalVariables } from '../globals/global';
 import {ActivatedRoute} from '@angular/router';
 import { DataService } from '../services/data.service';
-import { Experience } from '../models/Experience';
 import { MenuOptions } from '../models/MenuOptions';
-import { Basic } from '../models/Basic';
 
 
 
@@ -26,11 +25,14 @@ export class AppComponent {
   menuOptions: MenuOptions[] = [];
   basicText: any;
   resumeText: any;
+  experienceList: any[];
+  formationList: any[];
+  certificationsList: any[];
   menuControl = new FormControl();
   select= "Resume";
 
 
-  constructor(private route:ActivatedRoute, private dataService: DataService) {
+  constructor(private route:ActivatedRoute, private dataService: DataService, private utils: Utils) {
 
 
     this.form = new FormGroup({
@@ -48,6 +50,17 @@ export class AppComponent {
     var resumeJson = this.dataService.GetResume(this.language);
     this.resumeText = resumeJson;
 
+    var experienceJson = this.dataService.GetExperiences(this.language);
+    this.experienceList = experienceJson;
+    this.experienceList = utils.OrderArrayDesc(this.experienceList, "id");
+
+    var formationJson = this.dataService.GetFormation(this.language);
+    this.formationList = formationJson;
+    this.formationList = utils.OrderArrayDesc(this.formationList, "id");
+
+    var certificationsJson = this.dataService.GetCertificates(this.language);
+    this.certificationsList = certificationsJson;
+    this.certificationsList = utils.OrderArrayDesc(this.certificationsList, "id");
 
   }
 

@@ -1,0 +1,24 @@
+{
+  "menu":[
+    {
+      "value":"1",
+      "name":"Perfil",
+      "checked":"true"
+    },
+    {
+      "value":"2",
+      "name":"Experiencias",
+      "checked":"false"
+    },
+    {
+      "value":"3",
+      "name":"Formación",
+      "checked":"false"
+    },
+    {
+      "value":"4",
+      "name":"Certificados",
+      "checked":"false"
+    }
+  ]
+}
