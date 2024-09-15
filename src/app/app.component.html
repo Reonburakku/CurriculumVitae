@@ -21,14 +21,14 @@
       }
     </button>
     <mat-menu #menu="matMenu">
-      <button mat-menu-item (click)="goToPage('/es/home')">
+      <button mat-menu-item (click)="goToPage('./es/home')">
         <img
           class="icon"
           [src]="esIcon"
         />
         <span> Español</span>
       </button>
-      <button mat-menu-item (click)="goToPage('/en/home')">
+      <button mat-menu-item (click)="goToPage('./en/home')">
         <img
           class="icon"
           [src]="enIcon"
@@ -71,7 +71,7 @@
           </mat-list-item>
           <mat-list-item>
             <mat-icon matListItemIcon class="material-icons color_white">flag</mat-icon>
-            <h3 matListItemTitle class="nav-option">Colombian</h3>
+            <h3 matListItemTitle class="nav-option">{{basicText.nationality}}</h3>
           </mat-list-item>
           <mat-list-item>
             <mat-icon matListItemIcon class="material-icons color_white">recent_actors</mat-icon>
@@ -96,25 +96,70 @@
         <mat-list>
           @for (experience of experienceList; track experience) {
             <mat-list-item >
-              <h2 matListItemTitle>{{ experience.startMonth }} {{ experience.startYear }} - {{ experience.endMonth }} {{ experience.endYear }}</h2>
-              <h2 matListItemLine class="black-font"><b>{{ experience.position }} - {{ experience.Company }}</b> | {{ experience.Location }}</h2>
-              <h1 matListItemLine class="black-font">{{experience.functions}}:
-              <ul matListItemLine>
+              <h3 matListItemTitle>{{ experience.startMonth }} {{ experience.startYear }} - {{ experience.endMonth }} {{ experience.endYear }}</h3>
+              <p matListItemLine class="black-font"><b>{{ experience.position }} - {{ experience.Company }}</b> | {{ experience.Location }}</p>
+              <p matListItemLine class="black-font">{{experience.functions}}:</p>
+              <ul>
                 @for (function of experience.jobs; track function) {
                   <li>{{function}}</li>
                 }
               </ul>
-            </h1>
+
             </mat-list-item>
-            <br />
+            <mat-divider></mat-divider>
           }
         </mat-list>
       }
       @if(menuList._value ? menuList._value[0] == "3" : false) {
         <h1 class="text-center">Formación</h1>
+        <mat-list>
+          @for (formation of formationList; track formation) {
+            <mat-grid-list class="grid-formation" cols="2" rowHeight="2:1">
+              <mat-grid-tile class="top-left">
+                <mat-list-item >
+                  <h3 matListItemTitle>{{ formation.year }}</h3>
+                  <p matListItemLine class="black-font"><b>{{ formation.name }}</b> | {{ formation.thechnology }}</p>
+                  <p matListItemLine class="black-font">{{formation.institute}}, {{formation.location}}.</p>
+                </mat-list-item>
+              </mat-grid-tile>
+              <mat-grid-tile>
+                  <img
+                    width="50%"
+                    [alt]="formation.name"
+                    [src]="formation.image"
+                    (click)="openDialog(formation.name, formation.image)"
+                  />
+              </mat-grid-tile>
+            </mat-grid-list>
+            <mat-divider></mat-divider>
+          }
+        </mat-list>
       }
       @if(menuList._value ? menuList._value[0] == "4" : false) {
         <h1 class="text-center">Certificates</h1>
+
+        <mat-list>
+          @for (certificate of certificationsList; track certificate) {
+            <mat-grid-list class="grid-formation" cols="2" rowHeight="2:1">
+              <mat-grid-tile class="top-left">
+                <mat-list-item >
+                  <h3 matListItemTitle>{{ certificate.year }}</h3>
+                  <p matListItemLine class="black-font"><b>{{ certificate.name }}</b> | {{ certificate.thechnology }}</p>
+                  <p matListItemLine class="black-font">{{certificate.institute}}, {{certificate.location}}.</p>
+                </mat-list-item>
+              </mat-grid-tile>
+              <mat-grid-tile>
+                  <img
+                    width="50%"
+                    [alt]="certificate.name"
+                    [src]="certificate.image"
+                    (click)="openDialog(certificate.name, certificate.image)"
+                  />
+              </mat-grid-tile>
+            </mat-grid-list>
+            <mat-divider></mat-divider>
+          }
+        </mat-list>
       }
     </section>
   </mat-sidenav-container>

@@ -2,6 +2,7 @@
   "basic":{
     "title":"Curriculim vitae",
     "content":"Content",
-    "contact":"Contact"
+    "contact":"Contact",
+    "nationality":"Colombian"
   }
 }

@@ -1,11 +1,13 @@
 import { BooleanInput } from '@angular/cdk/coercion';
-import { Component } from '@angular/core';
-import {FormControl, FormGroup } from '@angular/forms';
+import { Component, inject } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
+import { ImageDialogComponent } from './image-dialog/image-dialog.component';
 import { Utils } from '../utils/Utils'
 import { GlobalVariables } from '../globals/global';
-import {ActivatedRoute} from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { DataService } from '../services/data.service';
 import { MenuOptions } from '../models/MenuOptions';
+import { MatDialog,  MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 
 
@@ -30,6 +32,7 @@ export class AppComponent {
   certificationsList: any[];
   menuControl = new FormControl();
   select= "Resume";
+  dialog = inject(MatDialog);
 
 
   constructor(private route:ActivatedRoute, private dataService: DataService, private utils: Utils) {
@@ -67,5 +70,14 @@ export class AppComponent {
   goToPage(pageName:string){
     console.log(pageName);
     window.location.href = pageName;
+  }
+
+  openDialog(title: string, image: string) {
+    this.dialog.open(ImageDialogComponent, {
+      data: {
+        title: title,
+        image: image,
+      },
+    });
   }
 }

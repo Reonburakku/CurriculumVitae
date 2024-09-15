@@ -1,0 +1,17 @@
+mat-dialog-container{
+  width: 100px;
+  height: 100px;
+}
+.mat-mdc-dialog-content{
+  width: 1200px;
+  height: 900px;
+  max-height: 900px;
+}
+
+.mat-mdc-dialog-content img{
+  width: 1200px;
+  height: 900px;
+  max-height: 800px;
+  max-width: 1150px;
+  object-fit: fill;
+}

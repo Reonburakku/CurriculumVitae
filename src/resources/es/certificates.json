@@ -7,7 +7,7 @@
       "thechnology":".Net",
       "institute":"Microsoft",
       "location":"Bogotá",
-      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Assets/Certifications/Microsoft_Certified_Professional_Certificate_0.png"
+      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Certifications/Microsoft_Certified_Professional_Certificate_0.png"
     },
     {
       "id":"2",
@@ -16,7 +16,7 @@
       "thechnology":"Web development",
       "institute":"Microsoft",
       "location":"Bogotá",
-      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Assets/Certifications/Microsoft_Certified_Professional_Certificate_1.png"
+      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Certifications/Microsoft_Certified_Professional_Certificate_1.png"
     },
     {
       "id":"3",
@@ -25,7 +25,7 @@
       "thechnology":"Cloud computing",
       "institute":"Linux Academy",
       "location":"Bogotá",
-      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Assets/Certifications/AWSCertifiedDeveloper.png"
+      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Certifications/AWSCertifiedDeveloper.png"
     },
     {
       "id":"4",
@@ -34,7 +34,7 @@
       "thechnology":"Cloud computing",
       "institute":"Amazon Web Services (AWS)",
       "location":"Bogotá",
-      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Assets/Certifications/AWSCertifiedSolutionsArchitect.png"
+      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Certifications/AWSCertifiedSolutionsArchitect.png"
     },
     {
       "id":"5",
@@ -43,7 +43,7 @@
       "thechnology":"Cloud computing",
       "institute":"Amazon Web Services (AWS)",
       "location":"Bogotá",
-      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Assets/Certifications/AWSCertifiedCloudPractitionerCertificate.png"
+      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Certifications/AWSCertifiedCloudPractitionerCertificate.png"
     },
     {
       "id":"6",
@@ -52,7 +52,7 @@
       "thechnology":"English",
       "institute":"EF SET",
       "location":"Bogotá",
-      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Assets/Certifications/EF+SET+Certificate.png"
+      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Certifications/EF+SET+Certificate.png"
     }
   ]
 }
