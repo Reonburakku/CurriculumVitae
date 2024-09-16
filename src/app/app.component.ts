@@ -27,6 +27,9 @@ export class AppComponent {
   menuOptions: MenuOptions[] = [];
   basicText: any;
   resumeText: any;
+  experienceText: any;
+  formationText: any;
+  certificationsText: any;
   experienceList: any[];
   formationList: any[];
   certificationsList: any[];
@@ -54,15 +57,18 @@ export class AppComponent {
     this.resumeText = resumeJson;
 
     var experienceJson = this.dataService.GetExperiences(this.language);
-    this.experienceList = experienceJson;
+    this.experienceText = experienceJson;
+    this.experienceList = this.experienceText.list;
     this.experienceList = utils.OrderArrayDesc(this.experienceList, "id");
 
     var formationJson = this.dataService.GetFormation(this.language);
-    this.formationList = formationJson;
+    this.formationText = formationJson;
+    this.formationList = this.formationText.list;
     this.formationList = utils.OrderArrayDesc(this.formationList, "id");
 
     var certificationsJson = this.dataService.GetCertificates(this.language);
-    this.certificationsList = certificationsJson;
+    this.certificationsText = certificationsJson;
+    this.certificationsList = this.certificationsText.list;
     this.certificationsList = utils.OrderArrayDesc(this.certificationsList, "id");
 
   }

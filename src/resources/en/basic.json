@@ -3,6 +3,42 @@
     "title":"Curriculim vitae",
     "content":"Content",
     "contact":"Contact",
-    "nationality":"Colombian"
+    "nationality":"Colombian",
+    "referenceTitle":"References",
+    "references":[
+      {
+        "name":"Juan Camilo Lara León",
+        "position":"Principal Software Engineer",
+        "phone":"+57 3173793720"
+      },
+      {
+        "name":"John David Carvajal Rivera",
+        "position":"Principal Software Engineer",
+        "phone":"+57 3173793720"
+      }
+    ],
+    "languagesText":"Languages",
+    "languages":[
+      {
+        "name":"Spanish",
+        "level":"Native",
+        "percent":"100"
+      },
+      {
+        "name":"English",
+        "level":"C1",
+        "percent":"75"
+      }
+    ],
+    "aptitudesText":"Skills",
+    "aptitudes":[
+      "Teamwork",
+      "Problems resolution",
+      "Leadership",
+      "Organization",
+      "Responsibility",
+      "Fast learning"
+    ],
+    "links":"Links"
   }
 }

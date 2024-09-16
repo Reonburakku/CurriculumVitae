@@ -10,13 +10,18 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
 }
 
 mat-list-option[aria-selected="true"] {
-  background: rgba(60, 20, 170, 0.7);
+  background: #3c14aab3;
   color:aliceblue;
 
 }
 
 .text-center{
   text-align: center;
+}
+
+.text-center.section-title{
+  color: #3c14aab3;
+  font-size: 40px;
 }
 
 .top-left .mat-grid-tile-content {
@@ -26,4 +31,9 @@ mat-list-option[aria-selected="true"] {
 
 .grid-resume{
   margin-top: 5%;
+}
+
+.mat-mdc-progress-bar {
+  --mdc-linear-progress-active-indicator-color: #3c14aab3;
+  --mdc-linear-progress-track-color: #6e58a7b3;
 }

@@ -1,109 +1,111 @@
 {
-  "experiences":[
-    {
-      "id":"1",
-      "startMonth":"July",
-      "startYear":"2012",
-      "endMonth":"March",
-      "endYear":"2017",
-      "position":"Web Developer",
-      "Company":"EXSIS SOFTWARE Y SOLUCIONES",
-      "Location":"Bogotá",
-      "functions":"Functions",
-      "jobs":[
-        "Talk with clients and rise requirements for new solutions.",
-        "Lead web developments for internal projects.",
-        "Develop solutions as back-end developer for many companies in several types of business.",
-        "Optimize processes and SQL server queries.",
-        "Learn and applicate new technologies in the projects.",
-        "Apply agile methodologies in the projects. ",
-        "Push the solutions to production environment."
-      ]
-    },
-    {
-      "id":"2",
-      "startMonth":"March",
-      "startYear":"2017",
-      "endMonth":"March",
-      "endYear":"2018",
-      "position":".Net Semi senior developer",
-      "Company":"Sistran",
-      "Location":"Bogotá",
-      "functions":"Functions",
-      "jobs":[
-        "Create .Net solutions for insurance companies.",
-        "Optimize process and SQL server queries, to get responses in less than 500 ms.",
-        "Apply agile methodologies.",
-        "Push the solutions to production environment."
-      ]
-    },
-    {
-      "id":"3",
-      "startMonth":"May",
-      "startYear":"2018",
-      "endMonth":"June",
-      "endYear":"2019",
-      "position":"Semi senior develop engineer",
-      "Company":"Mareigua",
-      "Location":"Bogotá",
-      "functions":"Functions",
-      "jobs":[
-        "Solve old and new errors in a governmental web application, by correcting C# code and SQL server queries.",
-        "Apply agile methodologies in the projects."
-      ]
-    },
-    {
-      "id":"4",
-      "startMonth":"July",
-      "startYear":"2019",
-      "endMonth":"May",
-      "endYear":"2022",
-      "position":"Software Developer",
-      "Company":"TransUnion",
-      "Location":"Bogotá - Remote",
-      "functions":"Functions",
-      "jobs":[
-        "Create functionalities in a c#-based tool created in the company, to generate solutions for insurance and loan decisioning.",
-        "Adapt functionalities to different clients.",
-        "Create SQL server scripts to add and optimize functionalities.",
-        "Apply agile methodologies in the projects.",
-        "Push the solutions to production environment."
-      ]
-    },
-    {
-      "id":"5",
-      "startMonth":"June",
-      "startYear":"2022",
-      "endMonth":"May",
-      "endYear":"2023",
-      "position":".Net Senior Developer",
-      "Company":"Blankfactor",
-      "Location":"Remote",
-      "functions":"Functions",
-      "jobs":[
-        "Develop .Net solutions for clients in Unite States and Bulgaria.",
-        "Create SQL server scripts for new functionalities, by creating, modifying and deleting tables as well as querying them.",
-        "Comunicate and solve problems with the US and bulgarian teams.",
-        "Apply agile methodologics in the projects."
-      ]
-    },
-    {
-      "id":"6",
-      "startMonth":"September",
-      "startYear":"2023",
-      "endMonth":"Current",
-      "endYear":"",
-      "position":".Analista de sistemas senior",
-      "Company":"Asesoftware",
-      "Location":"Remote",
-      "functions":"Functions",
-      "jobs":[
-        "Fix bugs and problems in web and desktop applications.",
-        "Optimize SQL server scripts for existing processes.",
-        "Create new functionalities by using .Net framework.",
-        "Create windows services to automatize processes."
-      ]
-    }
-  ]
-
+  "experiences":{
+    "title":"Experiences",
+    "list":[
+      {
+        "id":"1",
+        "startMonth":"July",
+        "startYear":"2012",
+        "endMonth":"March",
+        "endYear":"2017",
+        "position":"Web Developer",
+        "Company":"EXSIS SOFTWARE Y SOLUCIONES",
+        "Location":"Bogotá",
+        "functions":"Functions",
+        "jobs":[
+          "Talk with clients and rise requirements for new solutions.",
+          "Lead web developments for internal projects.",
+          "Develop solutions as back-end developer for many companies in several types of business.",
+          "Optimize processes and SQL server queries.",
+          "Learn and applicate new technologies in the projects.",
+          "Apply agile methodologies in the projects. ",
+          "Push the solutions to production environment."
+        ]
+      },
+      {
+        "id":"2",
+        "startMonth":"March",
+        "startYear":"2017",
+        "endMonth":"March",
+        "endYear":"2018",
+        "position":".Net Semi senior developer",
+        "Company":"Sistran",
+        "Location":"Bogotá",
+        "functions":"Functions",
+        "jobs":[
+          "Create .Net solutions for insurance companies.",
+          "Optimize process and SQL server queries, to get responses in less than 500 ms.",
+          "Apply agile methodologies.",
+          "Push the solutions to production environment."
+        ]
+      },
+      {
+        "id":"3",
+        "startMonth":"May",
+        "startYear":"2018",
+        "endMonth":"June",
+        "endYear":"2019",
+        "position":"Semi senior develop engineer",
+        "Company":"Mareigua",
+        "Location":"Bogotá",
+        "functions":"Functions",
+        "jobs":[
+          "Solve old and new errors in a governmental web application, by correcting C# code and SQL server queries.",
+          "Apply agile methodologies in the projects."
+        ]
+      },
+      {
+        "id":"4",
+        "startMonth":"July",
+        "startYear":"2019",
+        "endMonth":"May",
+        "endYear":"2022",
+        "position":"Software Developer",
+        "Company":"TransUnion",
+        "Location":"Bogotá - Remote",
+        "functions":"Functions",
+        "jobs":[
+          "Create functionalities in a c#-based tool created in the company, to generate solutions for insurance and loan decisioning.",
+          "Adapt functionalities to different clients.",
+          "Create SQL server scripts to add and optimize functionalities.",
+          "Apply agile methodologies in the projects.",
+          "Push the solutions to production environment."
+        ]
+      },
+      {
+        "id":"5",
+        "startMonth":"June",
+        "startYear":"2022",
+        "endMonth":"May",
+        "endYear":"2023",
+        "position":".Net Senior Developer",
+        "Company":"Blankfactor",
+        "Location":"Remote",
+        "functions":"Functions",
+        "jobs":[
+          "Develop .Net solutions for clients in Unite States and Bulgaria.",
+          "Create SQL server scripts for new functionalities, by creating, modifying and deleting tables as well as querying them.",
+          "Comunicate and solve problems with the US and bulgarian teams.",
+          "Apply agile methodologics in the projects."
+        ]
+      },
+      {
+        "id":"6",
+        "startMonth":"September",
+        "startYear":"2023",
+        "endMonth":"Current",
+        "endYear":"",
+        "position":".Analista de sistemas senior",
+        "Company":"Asesoftware",
+        "Location":"Remote",
+        "functions":"Functions",
+        "jobs":[
+          "Fix bugs and problems in web and desktop applications.",
+          "Optimize SQL server scripts for existing processes.",
+          "Create new functionalities by using .Net framework.",
+          "Create windows services to automatize processes."
+        ]
+      }
+    ]
+  }
 }

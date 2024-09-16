@@ -1,58 +1,61 @@
 {
-  "certificates":[
-    {
-      "id":"1",
-      "year":"2012",
-      "name":"Specialist: .NET Framework 4, Web Applications",
-      "thechnology":".Net",
-      "institute":"Microsoft",
-      "location":"Bogotá",
-      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Certifications/Microsoft_Certified_Professional_Certificate_0.png"
-    },
-    {
-      "id":"2",
-      "year":"2014",
-      "name":"Specialist: HTML5, JavaScript and CSS3",
-      "thechnology":"Web development",
-      "institute":"Microsoft",
-      "location":"Bogotá",
-      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Certifications/Microsoft_Certified_Professional_Certificate_1.png"
-    },
-    {
-      "id":"3",
-      "year":"2021",
-      "name":"AWS Certified Developer - Associate",
-      "thechnology":"Cloud computing",
-      "institute":"Linux Academy",
-      "location":"Bogotá",
-      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Certifications/AWSCertifiedDeveloper.png"
-    },
-    {
-      "id":"4",
-      "year":"2021",
-      "name":"AWS Certified Solutions Architect - Associate",
-      "thechnology":"Cloud computing",
-      "institute":"Amazon Web Services (AWS)",
-      "location":"Bogotá",
-      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Certifications/AWSCertifiedSolutionsArchitect.png"
-    },
-    {
-      "id":"5",
-      "year":"2021",
-      "name":"AWS Certified Cloud Practitioner",
-      "thechnology":"Cloud computing",
-      "institute":"Amazon Web Services (AWS)",
-      "location":"Bogotá",
-      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Certifications/AWSCertifiedCloudPractitionerCertificate.png"
-    },
-    {
-      "id":"6",
-      "year":"2024",
-      "name":"English Certificate",
-      "thechnology":"English",
-      "institute":"EF SET",
-      "location":"Bogotá",
-      "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Certifications/EF+SET+Certificate.png"
-    }
-  ]
+  "certificates":{
+    "title":"Certifications",
+    "list":[
+      {
+        "id":"1",
+        "year":"2012",
+        "name":"Specialist: .NET Framework 4, Web Applications",
+        "thechnology":".Net",
+        "institute":"Microsoft",
+        "location":"Bogotá",
+        "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Certifications/Microsoft_Certified_Professional_Certificate_0.png"
+      },
+      {
+        "id":"2",
+        "year":"2014",
+        "name":"Specialist: HTML5, JavaScript and CSS3",
+        "thechnology":"Web development",
+        "institute":"Microsoft",
+        "location":"Bogotá",
+        "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Certifications/Microsoft_Certified_Professional_Certificate_1.png"
+      },
+      {
+        "id":"3",
+        "year":"2021",
+        "name":"AWS Certified Developer - Associate",
+        "thechnology":"Cloud computing",
+        "institute":"Linux Academy",
+        "location":"Bogotá",
+        "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Certifications/AWSCertifiedDeveloper.png"
+      },
+      {
+        "id":"4",
+        "year":"2021",
+        "name":"AWS Certified Solutions Architect - Associate",
+        "thechnology":"Cloud computing",
+        "institute":"Amazon Web Services (AWS)",
+        "location":"Bogotá",
+        "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Certifications/AWSCertifiedSolutionsArchitect.png"
+      },
+      {
+        "id":"5",
+        "year":"2021",
+        "name":"AWS Certified Cloud Practitioner",
+        "thechnology":"Cloud computing",
+        "institute":"Amazon Web Services (AWS)",
+        "location":"Bogotá",
+        "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Certifications/AWSCertifiedCloudPractitionerCertificate.png"
+      },
+      {
+        "id":"6",
+        "year":"2024",
+        "name":"English Certificate",
+        "thechnology":"English",
+        "institute":"EF SET",
+        "location":"Bogotá",
+        "image":"https://manuelmendezninja.s3.sa-east-1.amazonaws.com/Certifications/EF+SET+Certificate.png"
+      }
+    ]
+  }
 }

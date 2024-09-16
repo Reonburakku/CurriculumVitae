@@ -32,7 +32,7 @@ p {
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: #1976d2;
+  background-color: #4a19d2;
   color: white;
   font-weight: 600;
 }
@@ -162,6 +162,9 @@ svg#clouds {
   background-color: #6b6b6d;
   color: #fff;
 }
+  .nav-left .mat-divider {
+    border-top-color: #ffffff;
+  }
 
 .nav-right{
   padding: 1%;
@@ -169,6 +172,9 @@ svg#clouds {
   background-color: #6b6b6d;
   color: #fff;
 }
+  .nav-right .mat-divider {
+    border-top-color: #ffffff;
+  }
 
   .nav-container .MainContent{
     padding: 1%;
@@ -176,6 +182,7 @@ svg#clouds {
 
 .nav-option {
   color: #fff;
+  align-self: self-end !important;
 }
 
 .black-font {
@@ -191,3 +198,15 @@ mat-grid-tile {
 }
 
 .material-icons.color_white { color: #FFFFFF; }
+
+.mdc-list-item__content{
+  align-self: self-end !important;
+}
+
+
+ .center-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+}

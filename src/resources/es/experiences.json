@@ -1,109 +1,111 @@
 {
-  "experiences":[
-    {
-      "id":"1",
-      "startMonth":"Julio",
-      "startYear":"2012",
-      "endMonth":"Marzo",
-      "endYear":"2017",
-      "position":"Web Developer",
-      "Company":"EXSIS SOFTWARE Y SOLUCIONES",
-      "Location":"Bogotá",
-      "functions":"Funciones",
-      "jobs":[
-        "Hablar con los clientes y aumentar los requisitos de nuevas soluciones.",
-        "Liderar desarrollos web para proyectos internos.",
-        "Desarrollar soluciones como desarrollador back-end para muchas empresas en varios tipos de negocios.",
-        "Para optimizar procesos y consultas de SQL Server.",
-        "Aprender y aplicar las nuevas tecnologías en los proyectos.",
-        "Aplicar metodologías ágiles en los proyectos.",
-        "Impulsar las soluciones al entorno de producción."
-      ]
-    },
-    {
-      "id":"2",
-      "startMonth":"Marzo",
-      "startYear":"2017",
-      "endMonth":"Marzo",
-      "endYear":"2018",
-      "position":".Net Semi senior developer",
-      "Company":"Sistran",
-      "Location":"Bogotá",
-      "functions":"Funciones",
-      "jobs":[
-        "Crear soluciones .Net para compañías de seguros.",
-        "Para optimizar el proceso y las consultas de SQL Server, para obtener respuestas en menos de 500 ms.",
-        "Aplicar metodologías ágiles.",
-        "Impulsar las soluciones al entorno de producción."
-      ]
-    },
-    {
-      "id":"3",
-      "startMonth":"Mayo",
-      "startYear":"2018",
-      "endMonth":"Junio",
-      "endYear":"2019",
-      "position":"Semi senior develop engineer",
-      "Company":"Mareigua",
-      "Location":"Bogotá",
-      "functions":"Funciones",
-      "jobs":[
-        "Resolver errores antiguos y nuevos en una aplicación web gubernamental, corrigiendo código C# y consultas de SQL Server.",
-        "Aplicar metodologías ágiles en los proyectos."
-      ]
-    },
-    {
-      "id":"4",
-      "startMonth":"Julio",
-      "startYear":"2019",
-      "endMonth":"Mayo",
-      "endYear":"2022",
-      "position":"Software Developer",
-      "Company":"TransUnion",
-      "Location":"Bogotá - Remoto",
-      "functions":"Funciones",
-      "jobs":[
-        "Crear funcionalidades en una herramienta basada en c# creada en la empresa, para generar soluciones para la toma de decisiones de seguros y préstamos.",
-        "Adaptar funcionalidades a diferentes clientes.",
-        "Crear scripts de SQL Server para agregar y optimizar funcionalidades.",
-        "Aplicar metodologías ágiles en los proyectos.",
-        "Publicar las soluciones al entorno de producción."
-      ]
-    },
-    {
-      "id":"5",
-      "startMonth":"Junio",
-      "startYear":"2022",
-      "endMonth":"Mayo",
-      "endYear":"2023",
-      "position":".Net Senior Developer",
-      "Company":"Blankfactor",
-      "Location":"Remoto",
-      "functions":"Funciones",
-      "jobs":[
-        "Desarrollar soluciones .Net para clientes en Estados Unidos y Bulgaria.",
-        "Crear scripts de SQL Server para nuevas funcionalidades, creando, modificando y eliminando tablas, así como consultándolas.",
-        "Comunicar y resolver problemas con los equipos estadounidenses y búlgaros.",
-        "Aplicar metodologías ágiles en los proyectos."
-      ]
-    },
-    {
-      "id":"6",
-      "startMonth":"Septiembre",
-      "startYear":"2023",
-      "endMonth":"Actual",
-      "endYear":"",
-      "position":".Analista de sistemas senior",
-      "Company":"Asesoftware",
-      "Location":"Remoto",
-      "functions":"Funciones",
-      "jobs":[
-        "Solucionar bugs y problemas en aplicaciones web y de escritorio.",
-        "Optimizar scripts de SQL server para procesos existentes.",
-        "Crear nuevas funcionalidades usando .Net Framework y Core.",
-        "Crear servicios windows para automatizar procesos."
-      ]
-    }
-  ]
-
+  "experiences":{
+    "title":"Experiencias",
+    "list":[
+      {
+        "id":"1",
+        "startMonth":"Julio",
+        "startYear":"2012",
+        "endMonth":"Marzo",
+        "endYear":"2017",
+        "position":"Web Developer",
+        "Company":"EXSIS SOFTWARE Y SOLUCIONES",
+        "Location":"Bogotá",
+        "functions":"Funciones",
+        "jobs":[
+          "Hablar con los clientes y aumentar los requisitos de nuevas soluciones.",
+          "Liderar desarrollos web para proyectos internos.",
+          "Desarrollar soluciones como desarrollador back-end para muchas empresas en varios tipos de negocios.",
+          "Para optimizar procesos y consultas de SQL Server.",
+          "Aprender y aplicar las nuevas tecnologías en los proyectos.",
+          "Aplicar metodologías ágiles en los proyectos.",
+          "Impulsar las soluciones al entorno de producción."
+        ]
+      },
+      {
+        "id":"2",
+        "startMonth":"Marzo",
+        "startYear":"2017",
+        "endMonth":"Marzo",
+        "endYear":"2018",
+        "position":".Net Semi senior developer",
+        "Company":"Sistran",
+        "Location":"Bogotá",
+        "functions":"Funciones",
+        "jobs":[
+          "Crear soluciones .Net para compañías de seguros.",
+          "Para optimizar el proceso y las consultas de SQL Server, para obtener respuestas en menos de 500 ms.",
+          "Aplicar metodologías ágiles.",
+          "Impulsar las soluciones al entorno de producción."
+        ]
+      },
+      {
+        "id":"3",
+        "startMonth":"Mayo",
+        "startYear":"2018",
+        "endMonth":"Junio",
+        "endYear":"2019",
+        "position":"Semi senior develop engineer",
+        "Company":"Mareigua",
+        "Location":"Bogotá",
+        "functions":"Funciones",
+        "jobs":[
+          "Resolver errores antiguos y nuevos en una aplicación web gubernamental, corrigiendo código C# y consultas de SQL Server.",
+          "Aplicar metodologías ágiles en los proyectos."
+        ]
+      },
+      {
+        "id":"4",
+        "startMonth":"Julio",
+        "startYear":"2019",
+        "endMonth":"Mayo",
+        "endYear":"2022",
+        "position":"Software Developer",
+        "Company":"TransUnion",
+        "Location":"Bogotá - Remoto",
+        "functions":"Funciones",
+        "jobs":[
+          "Crear funcionalidades en una herramienta basada en c# creada en la empresa, para generar soluciones para la toma de decisiones de seguros y préstamos.",
+          "Adaptar funcionalidades a diferentes clientes.",
+          "Crear scripts de SQL Server para agregar y optimizar funcionalidades.",
+          "Aplicar metodologías ágiles en los proyectos.",
+          "Publicar las soluciones al entorno de producción."
+        ]
+      },
+      {
+        "id":"5",
+        "startMonth":"Junio",
+        "startYear":"2022",
+        "endMonth":"Mayo",
+        "endYear":"2023",
+        "position":".Net Senior Developer",
+        "Company":"Blankfactor",
+        "Location":"Remoto",
+        "functions":"Funciones",
+        "jobs":[
+          "Desarrollar soluciones .Net para clientes en Estados Unidos y Bulgaria.",
+          "Crear scripts de SQL Server para nuevas funcionalidades, creando, modificando y eliminando tablas, así como consultándolas.",
+          "Comunicar y resolver problemas con los equipos estadounidenses y búlgaros.",
+          "Aplicar metodologías ágiles en los proyectos."
+        ]
+      },
+      {
+        "id":"6",
+        "startMonth":"Septiembre",
+        "startYear":"2023",
+        "endMonth":"Actual",
+        "endYear":"",
+        "position":".Analista de sistemas senior",
+        "Company":"Asesoftware",
+        "Location":"Remoto",
+        "functions":"Funciones",
+        "jobs":[
+          "Solucionar bugs y problemas en aplicaciones web y de escritorio.",
+          "Optimizar scripts de SQL server para procesos existentes.",
+          "Crear nuevas funcionalidades usando .Net Framework y Core.",
+          "Crear servicios windows para automatizar procesos."
+        ]
+      }
+    ]
+  }
 }
