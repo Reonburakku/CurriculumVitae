@@ -93,8 +93,8 @@
         "id":"6",
         "startMonth":"September",
         "startYear":"2023",
-        "endMonth":"Current",
-        "endYear":"",
+        "endMonth":"November",
+        "endYear":"2024",
         "position":"Senior Sistems Analist",
         "Company":"Asesoftware",
         "Location":"Remote",
@@ -104,6 +104,26 @@
           "Optimize SQL server scripts for existing processes.",
           "Create new functionalities by using .Net framework.",
           "Create windows services to automatize processes."
+        ]
+      },
+      {
+        "id":"7",
+        "startMonth":"November",
+        "startYear":"2024",
+        "endMonth":"Current",
+        "endYear":"",
+        "position":".Net Senior Developer with upper english",
+        "Company":"Globant",
+        "Location":"Remote",
+        "functions":"Functions",
+        "jobs":[
+          "Fix bugs and problems in web and desktop applications.",
+          "Optimize SQL server scripts for existing processes.",
+          "Create new functionalities by using .Net framework.",
+          "Create windows services to automatize processes.",
+          "Meet with clients to take requirements.",
+          "Fit client needs into technical solutions.",
+          "Colaborate with DevOps teams to integrate with azure"
         ]
       }
     ]

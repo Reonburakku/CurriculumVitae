@@ -93,8 +93,8 @@
         "id":"6",
         "startMonth":"Septiembre",
         "startYear":"2023",
-        "endMonth":"Actual",
-        "endYear":"",
+        "endMonth":"Noviembre",
+        "endYear":"2024",
         "position":"Analista de sistemas senior",
         "Company":"Asesoftware",
         "Location":"Remoto",
@@ -104,6 +104,25 @@
           "Optimizar scripts de SQL server para procesos existentes.",
           "Crear nuevas funcionalidades usando .Net Framework y Core.",
           "Crear servicios windows para automatizar procesos."
+        ]
+      },
+      {
+        "id":"7",
+        "startMonth":"November",
+        "startYear":"2024",
+        "endMonth":"Current",
+        "endYear":"",
+        "position":"Desarrollador .Net Senior con inglés avanzado",
+        "Company":"Globant",
+        "Location":"Remote",
+        "functions":"Functions",
+        "jobs":[
+          "Solucionar bugs y problemas en aplicaciones web y de escritorio.",
+          "Optimizar scripts de SQL server para procesos existentes.",
+          "Crear nuevas funcionalidades usando .Net Framework.",
+          "Reunirse con los clientes para tomar requisitos.",
+          "Ajustar las necesidades del cliente a soluciones técnicas.",
+          "Colaborar con equipos de DevOps para integrarse con Azure."
         ]
       }
     ]
