@@ -35,6 +35,8 @@ export class AppComponent {
   experienceList: any[];
   formationList: any[];
   certificationsList: any[];
+  skillsText: any;
+  accomplishmentsText: any;
   menuControl = new FormControl();
   select= "Resume";
   dialog = inject(MatDialog);
@@ -63,7 +65,7 @@ export class AppComponent {
       .subscribe(state => {
         if (state.matches && !this.isMobile) {
           // Al pasar a tabs, abrir la misma sección que estaba seleccionada en el menú.
-          this.mobileTabIndex = Number(this.selectedSection) - 1;
+          this.mobileTabIndex = Math.max(0, this.menuOptions.findIndex(o => o.value == this.selectedSection));
         }
         this.isMobile = state.matches;
       });
@@ -94,9 +96,12 @@ export class AppComponent {
     this.certificationsList = this.certificationsText.list;
     this.certificationsList = utils.OrderArrayDesc(this.certificationsList, "id");
 
+    this.skillsText = this.dataService.GetSkills(this.language);
+    this.accomplishmentsText = this.dataService.GetAccomplishments(this.language);
+
   }
 
-  /** Valor ("1".."4") de la sección principal seleccionada en el menú lateral. */
+  /** Valor (campo "value" de menu.json) de la sección principal seleccionada en el menú lateral. */
   get selectedSection(): string {
     const value = this.menuControl.value;
     return (Array.isArray(value) ? value[0] : value) ?? '1';

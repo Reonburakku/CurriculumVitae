@@ -42,6 +42,7 @@
 
 <ng-template #resumeTpl>
   <h1 class="text-center section-title">{{ resumeText.title }}</h1>
+  <p class="text-center headline">{{ resumeText.headline }}</p>
   <div class="two-col grid-resume">
     <div class="col col-text">{{ resumeText.profile }}</div>
     <div class="col col-image">
@@ -66,6 +67,9 @@
             <li>{{function}}</li>
           }
         </ul>
+        @if (experience.technologies) {
+          <p class="black-font technologies"><b>{{ experience.technologiesText }}:</b> {{ experience.technologies }}</p>
+        }
       </mat-list-item>
       <mat-divider></mat-divider>
     }
@@ -80,14 +84,16 @@
         <p class="black-font"><b>{{ item.name }}</b> | {{ item.thechnology }}</p>
         <p class="black-font">{{item.institute}}, {{item.location}}.</p>
       </div>
-      <div class="col col-image">
-        <img
-          class="clickable"
-          [alt]="item.name"
-          [src]="item.image"
-          (click)="openDialog(item.name, item.image)"
-        />
-      </div>
+      @if (item.image) {
+        <div class="col col-image">
+          <img
+            class="clickable"
+            [alt]="item.name"
+            [src]="item.image"
+            (click)="openDialog(item.name, item.image)"
+          />
+        </div>
+      }
     </div>
     <mat-divider></mat-divider>
   }
@@ -101,6 +107,31 @@
 <ng-template #certificatesTpl>
   <h1 class="text-center section-title">{{ certificationsText.title }}</h1>
   <ng-container *ngTemplateOutlet="studyListTpl; context: { list: certificationsList }"></ng-container>
+</ng-template>
+
+<ng-template #skillsTpl>
+  <h1 class="text-center section-title">{{ skillsText.title }}</h1>
+  <div class="skills-grid">
+    @for (group of skillsText.list; track group.category) {
+      <div class="skill-group">
+        <h3>{{ group.category }}</h3>
+        <div class="chips">
+          @for (skill of group.items; track skill) {
+            <span class="chip">{{ skill }}</span>
+          }
+        </div>
+      </div>
+    }
+  </div>
+</ng-template>
+
+<ng-template #accomplishmentsTpl>
+  <h1 class="text-center section-title">{{ accomplishmentsText.title }}</h1>
+  <ul class="accomplishments">
+    @for (item of accomplishmentsText.list; track item) {
+      <li>{{ item }}</li>
+    }
+  </ul>
 </ng-template>
 
 <ng-template #languagesTpl>
@@ -196,6 +227,8 @@
               @case ("2") { <ng-container *ngTemplateOutlet="experiencesTpl"></ng-container> }
               @case ("3") { <ng-container *ngTemplateOutlet="formationTpl"></ng-container> }
               @case ("4") { <ng-container *ngTemplateOutlet="certificatesTpl"></ng-container> }
+              @case ("5") { <ng-container *ngTemplateOutlet="skillsTpl"></ng-container> }
+              @case ("6") { <ng-container *ngTemplateOutlet="accomplishmentsTpl"></ng-container> }
             }
           </div>
         </mat-tab>
@@ -273,6 +306,8 @@
           @case ("2") { <ng-container *ngTemplateOutlet="experiencesTpl"></ng-container> }
           @case ("3") { <ng-container *ngTemplateOutlet="formationTpl"></ng-container> }
           @case ("4") { <ng-container *ngTemplateOutlet="certificatesTpl"></ng-container> }
+          @case ("5") { <ng-container *ngTemplateOutlet="skillsTpl"></ng-container> }
+          @case ("6") { <ng-container *ngTemplateOutlet="accomplishmentsTpl"></ng-container> }
           @default { <ng-container *ngTemplateOutlet="resumeTpl"></ng-container> }
         }
       </section>

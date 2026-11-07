@@ -8,19 +8,17 @@
         "startYear":"2012",
         "endMonth":"Marzo",
         "endYear":"2017",
-        "position":"Web Developer",
-        "Company":"EXSIS SOFTWARE Y SOLUCIONES",
+        "position":"Desarrollador web",
+        "Company":"Exsis Software y Soluciones",
         "Location":"Bogotá",
         "functions":"Funciones",
         "jobs":[
-          "Hablar con los clientes y aumentar los requisitos de nuevas soluciones.",
-          "Liderar desarrollos web para proyectos internos.",
-          "Desarrollar soluciones como desarrollador back-end para muchas empresas en varios tipos de negocios.",
-          "Para optimizar procesos y consultas de SQL Server.",
-          "Aprender y aplicar las nuevas tecnologías en los proyectos.",
-          "Aplicar metodologías ágiles en los proyectos.",
-          "Impulsar las soluciones al entorno de producción."
-        ]
+          "Levanté requerimientos directamente con los clientes para nuevas soluciones y lideré el desarrollo web de proyectos internos.",
+          "Desarrollé soluciones backend para múltiples empresas de diversos sectores.",
+          "Optimicé procesos y consultas de SQL Server, apliqué metodologías ágiles y desplegué en ambientes de producción."
+        ],
+        "technologiesText":"Tecnologías",
+        "technologies":".NET, SQL Server, IIS, JavaScript, HTML5, CSS3"
       },
       {
         "id":"2",
@@ -28,16 +26,17 @@
         "startYear":"2017",
         "endMonth":"Marzo",
         "endYear":"2018",
-        "position":".Net Semi senior developer",
+        "position":"Desarrollador .NET Semi-Senior",
         "Company":"Sistran",
         "Location":"Bogotá",
         "functions":"Funciones",
         "jobs":[
-          "Crear soluciones .Net para compañías de seguros.",
-          "Para optimizar el proceso y las consultas de SQL Server, para obtener respuestas en menos de 500 ms.",
-          "Aplicar metodologías ágiles.",
-          "Impulsar las soluciones al entorno de producción."
-        ]
+          "Desarrollé soluciones .NET para clientes del sector asegurador.",
+          "Optimicé procesos y consultas de SQL Server para lograr tiempos de respuesta menores a 500 ms.",
+          "Apliqué metodologías ágiles y desplegué soluciones en ambientes de producción."
+        ],
+        "technologiesText":"Tecnologías",
+        "technologies":".NET, SQL Server, IIS"
       },
       {
         "id":"3",
@@ -45,14 +44,16 @@
         "startYear":"2018",
         "endMonth":"Junio",
         "endYear":"2019",
-        "position":"Semi senior develop engineer",
+        "position":"Ingeniero de desarrollo Semi-Senior",
         "Company":"Mareigua",
         "Location":"Bogotá",
         "functions":"Funciones",
         "jobs":[
-          "Resolver errores antiguos y nuevos en una aplicación web gubernamental, corrigiendo código C# y consultas de SQL Server.",
-          "Aplicar metodologías ágiles en los proyectos."
-        ]
+          "Resolví defectos existentes y nuevos en una aplicación web gubernamental corrigiendo código C# y consultas de SQL Server.",
+          "Apliqué metodologías ágiles durante todo el desarrollo."
+        ],
+        "technologiesText":"Tecnologías",
+        "technologies":".NET, SQL Server, IIS, JavaScript"
       },
       {
         "id":"4",
@@ -60,17 +61,18 @@
         "startYear":"2019",
         "endMonth":"Mayo",
         "endYear":"2022",
-        "position":"Software Developer",
+        "position":"Desarrollador de software",
         "Company":"TransUnion",
-        "Location":"Bogotá - Remoto",
+        "Location":"Bogotá (Remoto)",
         "functions":"Funciones",
         "jobs":[
-          "Crear funcionalidades en una herramienta basada en c# creada en la empresa, para generar soluciones para la toma de decisiones de seguros y préstamos.",
-          "Adaptar funcionalidades a diferentes clientes.",
-          "Crear scripts de SQL Server para agregar y optimizar funcionalidades.",
-          "Aplicar metodologías ágiles en los proyectos.",
-          "Publicar las soluciones al entorno de producción."
-        ]
+          "Construí funcionalidades dentro de una plataforma propietaria basada en C# usada para generar soluciones de decisión para seguros y préstamos.",
+          "Adapté funcionalidades centrales a los requerimientos de múltiples clientes.",
+          "Escribí y optimicé scripts de SQL Server para soportar nuevas funcionalidades.",
+          "Apliqué metodologías ágiles y desplegué soluciones en ambientes de producción."
+        ],
+        "technologiesText":"Tecnologías",
+        "technologies":"C#, SQL Server"
       },
       {
         "id":"5",
@@ -78,16 +80,18 @@
         "startYear":"2022",
         "endMonth":"Mayo",
         "endYear":"2023",
-        "position":"Desarrollador .Net Senior",
+        "position":"Desarrollador .NET Senior",
         "Company":"Blankfactor",
         "Location":"Remoto",
         "functions":"Funciones",
         "jobs":[
-          "Desarrollar soluciones .Net para clientes en Estados Unidos y Bulgaria.",
-          "Crear scripts de SQL Server para nuevas funcionalidades, creando, modificando y eliminando tablas, así como consultándolas.",
-          "Comunicar y resolver problemas con los equipos estadounidenses y búlgaros.",
-          "Aplicar metodologías ágiles en los proyectos."
-        ]
+          "Entregué soluciones .NET para clientes en Estados Unidos y Bulgaria dentro de equipos ágiles interregionales.",
+          "Escribí scripts de SQL Server para nuevas funcionalidades, incluyendo la creación, modificación y consulta de tablas.",
+          "Me comuniqué con los equipos de Estados Unidos y Bulgaria y les di soporte para resolver problemas técnicos y alinear requerimientos.",
+          "Apliqué metodologías ágiles durante todo el ciclo de vida del proyecto."
+        ],
+        "technologiesText":"Tecnologías",
+        "technologies":".NET, SQL Server, IIS, AWS"
       },
       {
         "id":"6",
@@ -100,30 +104,34 @@
         "Location":"Remoto",
         "functions":"Funciones",
         "jobs":[
-          "Solucionar bugs y problemas en aplicaciones web y de escritorio.",
-          "Optimizar scripts de SQL server para procesos existentes.",
-          "Crear nuevas funcionalidades usando .Net Framework y Core.",
-          "Crear servicios windows para automatizar procesos."
-        ]
+          "Apliqué principios de Clean Architecture al diseñar y refactorizar soluciones .NET, separando la lógica de negocio de la infraestructura para facilitar las pruebas y el mantenimiento.",
+          "Diagnostiqué y corregí bugs en aplicaciones web y de escritorio, trabajando directamente con QA para validar las correcciones.",
+          "Optimicé scripts de SQL Server para mejorar los tiempos de respuesta de procesos existentes.",
+          "Desarrollé nuevas funcionalidades con .NET Framework y creé servicios de Windows para automatizar procesos recurrentes."
+        ],
+        "technologiesText":"Tecnologías",
+        "technologies":".NET, Clean Architecture, SQL Server, IIS, JavaScript"
       },
       {
         "id":"7",
-        "startMonth":"November",
+        "startMonth":"Noviembre",
         "startYear":"2024",
-        "endMonth":"Current",
+        "endMonth":"Actualidad",
         "endYear":"",
-        "position":"Desarrollador .Net Senior con inglés avanzado",
+        "position":"Desarrollador .NET Senior",
         "Company":"Globant",
-        "Location":"Remote",
-        "functions":"Functions",
+        "Location":"Remoto",
+        "functions":"Funciones",
         "jobs":[
-          "Solucionar bugs y problemas en aplicaciones web y de escritorio.",
-          "Optimizar scripts de SQL server para procesos existentes.",
-          "Crear nuevas funcionalidades usando .Net Framework.",
-          "Reunirse con los clientes para tomar requisitos.",
-          "Ajustar las necesidades del cliente a soluciones técnicas.",
-          "Colaborar con equipos de DevOps para integrarse con Azure."
-        ]
+          "Diseño y construyo microservicios siguiendo los principios de Clean Architecture, mejorando la mantenibilidad y la capacidad de prueba de la lógica de negocio central.",
+          "Desarrollo y despliego Azure Functions para el procesamiento basado en eventos, y uso Service Bus para coordinar la comunicación asíncrona entre servicios.",
+          "Uso Azure Blob Storage para el almacenamiento escalable de archivos de la aplicación y datos procesados dentro de los flujos de los microservicios.",
+          "Diagnostico y resuelvo defectos en aplicaciones web y de escritorio, restaurando la estabilidad de procesos críticos para el negocio.",
+          "Diseño y optimizo scripts y consultas de SQL Server para mejorar el rendimiento de procesos existentes.",
+          "Lideré la migración de servicios de Mulesoft a .NET e integré bases de datos MongoDB con aplicaciones .NET."
+        ],
+        "technologiesText":"Tecnologías",
+        "technologies":".NET, Clean Architecture, Microservicios, Azure Functions, Service Bus, Blob Storage, SQL Server, MongoDB, Mulesoft"
       }
     ]
   }

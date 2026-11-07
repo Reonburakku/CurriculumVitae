@@ -1,0 +1,11 @@
+{
+  "accomplishments":{
+    "title":"Logros destacados",
+    "list":[
+      "Lideré un proyecto de 1 año con un equipo multidisciplinario de 10 personas que abarcaba desarrollo front-end y back-end.",
+      "Resolví aproximadamente 200 errores de aplicación que existían desde antes de mi llegada al proyecto.",
+      "Mantuve aplicaciones web en producción con tiempos de respuesta consistentemente menores a 500 ms.",
+      "Diagnostiqué y desplegué correcciones para numerosos bugs en producción con un tiempo de inactividad mínimo."
+    ]
+  }
+}
