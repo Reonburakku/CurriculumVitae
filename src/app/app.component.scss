@@ -210,3 +210,131 @@ mat-grid-tile {
   align-items: center;
   height: 50px;
 }
+
+.toolbar .logo {
+  width: 9%;
+  min-width: 90px;
+  max-height: 56px;
+  object-fit: contain;
+}
+
+/* Bloque texto + imagen (Perfil, Formación, Certificados) */
+.two-col {
+  display: flex;
+  gap: 24px;
+  padding: 16px 0;
+  text-align: justify;
+}
+
+.two-col .col {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.two-col .col-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two-col .col-image img {
+  width: 50%;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  gap: 8px;
+}
+
+/* ============ Pantallas pequeñas: layout en tabs ============ */
+.mobile-container {
+  padding-top: 60px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.mobile-tabs {
+  ::ng-deep .mat-mdc-tab-header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  ::ng-deep .mat-mdc-tab-body-wrapper {
+    min-height: calc(100vh - 110px);
+  }
+
+  .tab-content {
+    padding: 8px 16px 24px;
+  }
+
+  .text-center.section-title {
+    font-size: 28px;
+    line-height: 1.2;
+    margin: 16px 0;
+  }
+
+  // Los bloques de las barras laterales usan texto/iconos blancos sobre gris;
+  // en las tabs el fondo es blanco, así que se adaptan los colores.
+  .nav-option {
+    color: #000;
+  }
+
+  .material-icons.color_white {
+    color: #3c14aab3;
+  }
+
+  // Los items de lista de Material tienen altura fija; dejar que el texto largo fluya.
+  ::ng-deep .experience-item.mat-mdc-list-item {
+    height: auto;
+  }
+
+  ::ng-deep .experience-item .mdc-list-item__primary-text,
+  ::ng-deep .experience-item .mdc-list-item__secondary-text,
+  ::ng-deep .experience-item .mat-mdc-list-item-line {
+    white-space: normal;
+  }
+
+  ::ng-deep .experience-item .mat-mdc-list-item-unscoped-content::before {
+    display: none;
+  }
+
+  ::ng-deep .experience-item ul {
+    margin: 4px 0 8px;
+    padding-left: 20px;
+  }
+
+  // Textos largos (p. ej. el correo) deben partirse en lugar de cortarse con "...".
+  ::ng-deep .mat-mdc-list-item .mdc-list-item__primary-text {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  ::ng-deep .mat-mdc-list-item {
+    height: auto !important;
+    min-height: 48px;
+  }
+
+  .two-col {
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+  }
+
+  .two-col .col-image img {
+    width: 70%;
+    max-width: 320px;
+  }
+
+  .links {
+    justify-content: center;
+  }
+}
