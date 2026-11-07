@@ -1,0 +1,39 @@
+{
+  "skills":{
+    "title":"Technical skills",
+    "list":[
+      {
+        "category":"Languages & Frameworks",
+        "items":["C#", ".NET / .NET Core", "ASP.NET", "JavaScript", "HTML5", "CSS3"]
+      },
+      {
+        "category":"Data",
+        "items":["SQL Server (development, optimization, and administration)", "MongoDB"]
+      },
+      {
+        "category":"Cloud",
+        "items":["Microsoft Azure", "AWS (Certified Cloud Practitioner & Solutions Architect Associate)"]
+      },
+      {
+        "category":"Architecture",
+        "items":["Clean Architecture", "Microservices Architecture", "RESTful Web APIs"]
+      },
+      {
+        "category":"Azure Services",
+        "items":["Azure Functions", "Service Bus", "Blob Storage", "App Services"]
+      },
+      {
+        "category":"Integration",
+        "items":["Mulesoft-to-.NET migrations", "Windows Services for process automation"]
+      },
+      {
+        "category":"Practices",
+        "items":["Agile/Scrum (stand-ups, sprint planning, backlog refinement)", "Git", "IIS", "PBI estimation and delivery"]
+      },
+      {
+        "category":"Currently learning",
+        "items":["Azure DevOps pipelines", "React/TypeScript"]
+      }
+    ]
+  }
+}

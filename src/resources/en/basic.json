@@ -1,37 +1,37 @@
 {
-  "basic":{
-    "title":"Curriculim vitae",
-    "content":"Content",
-    "contact":"Contact",
-    "nationality":"Colombian",
-    "referenceTitle":"References",
-    "references":[
+  "basic": {
+    "title": "Curriculim vitae",
+    "content": "Content",
+    "contact": "Contact",
+    "nationality": "Colombian",
+    "referenceTitle": "References",
+    "references": [
       {
-        "name":"Juan Camilo Lara León",
-        "position":"Principal Software Engineer",
-        "phone":"+57 3173793720"
+        "name": "Juan Camilo Lara León",
+        "position": "Principal Software Engineer",
+        "phone": "+57 3173793720"
       },
       {
-        "name":"John David Carvajal Rivera",
-        "position":"Principal Software Engineer",
-        "phone":"+57 3173793720"
+        "name": "John David Carvajal Rivera",
+        "position": "Principal Software Engineer",
+        "phone": "+57 3173793720"
       }
     ],
-    "languagesText":"Languages",
-    "languages":[
+    "languagesText": "Languages",
+    "languages": [
       {
-        "name":"Spanish",
-        "level":"Native",
-        "percent":"100"
+        "name": "Spanish",
+        "level": "Native",
+        "percent": "100"
       },
       {
-        "name":"English",
-        "level":"C1",
-        "percent":"75"
+        "name": "English",
+        "level": "C1 (Advanced)",
+        "percent": "75"
       }
     ],
-    "aptitudesText":"Skills",
-    "aptitudes":[
+    "aptitudesText": "Skills",
+    "aptitudes": [
       "Teamwork",
       "Problems resolution",
       "Leadership",
@@ -39,6 +39,6 @@
       "Responsibility",
       "Fast learning"
     ],
-    "links":"Links"
+    "links": "Links"
   }
 }

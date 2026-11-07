@@ -1,37 +1,37 @@
 {
-  "basic":{
-    "title":"Hoja de vida",
-    "content":"Contenido",
-    "contact":"Contacto",
-    "nationality":"Colombiano",
-    "referenceTitle":"Referencias",
-    "references":[
+  "basic": {
+    "title": "Hoja de vida",
+    "content": "Contenido",
+    "contact": "Contacto",
+    "nationality": "Colombiano",
+    "referenceTitle": "Referencias",
+    "references": [
       {
-        "name":"Juan Camilo Lara León",
-        "position":"Principal Software Engineer",
-        "phone":"+57 3173793720"
+        "name": "Juan Camilo Lara León",
+        "position": "Principal Software Engineer",
+        "phone": "+57 3173793720"
       },
       {
-        "name":"John David Carvajal Rivera",
-        "position":"Principal Software Engineer",
-        "phone":"+57 3173793720"
+        "name": "John David Carvajal Rivera",
+        "position": "Principal Software Engineer",
+        "phone": "+57 3173793720"
       }
     ],
-    "languagesText":"Lenguajes",
-    "languages":[
+    "languagesText": "Lenguajes",
+    "languages": [
       {
-        "name":"Español",
-        "level":"Nativo",
-        "percent":"100"
+        "name": "Español",
+        "level": "Nativo",
+        "percent": "100"
       },
       {
-        "name":"Inglés",
-        "level":"C1",
-        "percent":"75"
+        "name": "Inglés",
+        "level": "C1 (Avanzado)",
+        "percent": "75"
       }
     ],
-    "aptitudesText":"Aptitudes",
-    "aptitudes":[
+    "aptitudesText": "Aptitudes",
+    "aptitudes": [
       "Trabajo en Equipo",
       "Resolución de problemas",
       "Liderazgo",
@@ -39,6 +39,6 @@
       "Responsabilidad",
       "Aprendizaje rápido"
     ],
-    "links":"Enlaces"
+    "links": "Enlaces"
   }
 }

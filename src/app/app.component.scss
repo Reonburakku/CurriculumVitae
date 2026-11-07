@@ -245,11 +245,6 @@ mat-grid-tile {
   cursor: pointer;
 }
 
-.links {
-  display: flex;
-  gap: 8px;
-}
-
 /* ============ Pantallas pequeñas: layout en tabs ============ */
 .mobile-container {
   padding-top: 60px;
@@ -292,25 +287,6 @@ mat-grid-tile {
     color: #3c14aab3;
   }
 
-  // Los items de lista de Material tienen altura fija; dejar que el texto largo fluya.
-  ::ng-deep .experience-item.mat-mdc-list-item {
-    height: auto;
-  }
-
-  ::ng-deep .experience-item .mdc-list-item__primary-text,
-  ::ng-deep .experience-item .mdc-list-item__secondary-text,
-  ::ng-deep .experience-item .mat-mdc-list-item-line {
-    white-space: normal;
-  }
-
-  ::ng-deep .experience-item .mat-mdc-list-item-unscoped-content::before {
-    display: none;
-  }
-
-  ::ng-deep .experience-item ul {
-    margin: 4px 0 8px;
-    padding-left: 20px;
-  }
 
   // Textos largos (p. ej. el correo) deben partirse en lugar de cortarse con "...".
   ::ng-deep .mat-mdc-list-item .mdc-list-item__primary-text {

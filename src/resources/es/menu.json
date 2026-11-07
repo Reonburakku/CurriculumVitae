@@ -1,24 +1,34 @@
 {
-  "menu":[
+  "menu": [
     {
-      "value":"1",
-      "name":"Perfil",
-      "checked":"true"
+      "value": "1",
+      "name": "Perfil",
+      "checked": "true"
     },
     {
-      "value":"2",
-      "name":"Experiencias",
-      "checked":"false"
+      "value": "2",
+      "name": "Experiencias",
+      "checked": "false"
     },
     {
-      "value":"3",
-      "name":"Formación",
-      "checked":"false"
+      "value": "5",
+      "name": "Habilidades técnicas",
+      "checked": "false"
     },
     {
-      "value":"4",
-      "name":"Certificados",
-      "checked":"false"
+      "value": "6",
+      "name": "Logros",
+      "checked": "false"
+    },
+    {
+      "value": "3",
+      "name": "Formación",
+      "checked": "false"
+    },
+    {
+      "value": "4",
+      "name": "Certificados",
+      "checked": "false"
     }
   ]
 }

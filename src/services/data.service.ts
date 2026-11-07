@@ -6,12 +6,16 @@ import * as esResumeJson from '../resources/es/resume.json';
 import * as esExperiencesJson from '../resources/es/experiences.json';
 import * as esFormationJson from '../resources/es/formation.json';
 import * as esCertificatesJson from '../resources/es/certificates.json';
+import * as esSkillsJson from '../resources/es/skills.json';
+import * as esAccomplishmentsJson from '../resources/es/accomplishments.json';
 import * as enBasicJson from '../resources/en/basic.json';
 import * as enMenuJson from '../resources/en/menu.json';
 import * as enResumeJson from '../resources/en/resume.json';
 import * as enExperiencesJson from '../resources/en/experiences.json';
 import * as enFormationJson from '../resources/en/formation.json';
 import * as enCertificatesJson from '../resources/en/certificates.json';
+import * as enSkillsJson from '../resources/en/skills.json';
+import * as enAccomplishmentsJson from '../resources/en/accomplishments.json';
 
 @Injectable({
   providedIn: 'root'
@@ -24,6 +28,8 @@ export class DataService {
   dataExperiences: any;
   dataFormation: any;
   dataCertificates: any;
+  dataSkills: any;
+  dataAccomplishments: any;
   options: any[] = [];
   constructor() { }
 
@@ -35,7 +41,9 @@ export class DataService {
         this.dataResume = esResumeJson;
         this.dataExperiences = esExperiencesJson;
         this.dataFormation = esFormationJson;
-        this.dataCertificates = esCertificatesJson
+        this.dataCertificates = esCertificatesJson;
+        this.dataSkills = esSkillsJson;
+        this.dataAccomplishments = esAccomplishmentsJson;
         break;
       case "en":
         this.dataBasic = enBasicJson;
@@ -43,7 +51,9 @@ export class DataService {
         this.dataResume = enResumeJson;
         this.dataExperiences = enExperiencesJson;
         this.dataFormation = enFormationJson;
-        this.dataCertificates = enCertificatesJson
+        this.dataCertificates = enCertificatesJson;
+        this.dataSkills = enSkillsJson;
+        this.dataAccomplishments = enAccomplishmentsJson;
         break;
       default:
         this.dataBasic = esBasicJson;
@@ -51,7 +61,9 @@ export class DataService {
         this.dataResume = esResumeJson;
         this.dataExperiences = esExperiencesJson;
         this.dataFormation = esFormationJson;
-        this.dataCertificates = esCertificatesJson
+        this.dataCertificates = esCertificatesJson;
+        this.dataSkills = esSkillsJson;
+        this.dataAccomplishments = esAccomplishmentsJson;
         break;
     }
   }
@@ -85,5 +97,13 @@ export class DataService {
     this.setLanguage(lang);
     var result = this.dataCertificates.certificates;
     return result;
+  }
+  public GetSkills(lang: String): any {
+    this.setLanguage(lang);
+    return this.dataSkills.skills;
+  }
+  public GetAccomplishments(lang: String): any {
+    this.setLanguage(lang);
+    return this.dataAccomplishments.accomplishments;
   }
 }

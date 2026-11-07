@@ -1,6 +1,7 @@
 {
   "resume":{
-    "title":"Perfil profesional",
-    "profile":"Desarrollador SQL y .Net con capacidad de crear nuevas alternativas con eficiencia y eficacia para adquirir nuevos conocimientos en diferentes áreas funcionales, con altos valores como honestidad, moralidad, responsabilidad, solidaridad y respeto. Tengo una gran capacidad de trabajo en equipo, decisión y liderazgo. Tengo dominio en SQL, C#, JavaScript, HTML5, CSS3, entre otros lenguajes de programación, así como el conocimiento en herramientas como ASP.NET, SQL Server, servicios AWS."
+    "title":"Resumen profesional",
+    "headline":"Ingeniero de software .NET | C# · .NET Core · Azure · SQL Server · Microservicios",
+    "profile":"Ingeniero de software enfocado en backend con más de 10 años de experiencia diseñando, construyendo y manteniendo aplicaciones .NET y soluciones basadas en SQL Server para los sectores de seguros, servicios financieros y gobierno. En los últimos dos años me he enfocado en Clean Architecture y microservicios, con experiencia práctica en Azure Functions, Service Bus y Blob Storage en Globant. Amplia trayectoria en resolución de problemas, optimización de rendimiento y entrega de funcionalidades en equipos Agile/Scrum, incluyendo trabajo con equipos distribuidos y remotos en Estados Unidos y Europa. Experiencia con servicios en la nube de Microsoft Azure y AWS, APIs RESTful e integración de servicios (MongoDB, Mulesoft). Me siento cómodo asumiendo PBIs de principio a fin, desde la estimación hasta el despliegue, con un fuerte sentido de responsabilidad y mejora continua."
   }
 }

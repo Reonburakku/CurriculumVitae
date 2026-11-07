@@ -1,0 +1,11 @@
+{
+  "accomplishments":{
+    "title":"Key accomplishments",
+    "list":[
+      "Led a 1-year project with a 10-person cross-functional team spanning front-end and back-end development.",
+      "Resolved approximately 200 long-standing application errors that predated my involvement on the project.",
+      "Maintained production web applications with response times consistently under 500 ms.",
+      "Diagnosed and deployed fixes for numerous production bugs with minimal downtime."
+    ]
+  }
+}

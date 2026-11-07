@@ -37,3 +37,87 @@ mat-list-option[aria-selected="true"] {
   --mdc-linear-progress-active-indicator-color: #3c14aab3;
   --mdc-linear-progress-track-color: #6e58a7b3;
 }
+
+/* ===== Secciones del CV (globales para no exceder el presupuesto de estilos del componente) ===== */
+.headline {
+  color: #555;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: -4px;
+}
+
+// Los items de lista de Material tienen altura fija y no parten líneas; dejar que el texto largo fluya.
+.experience-item.mat-mdc-list-item {
+  height: auto;
+}
+
+.experience-item .mdc-list-item__primary-text,
+.experience-item .mdc-list-item__secondary-text,
+.experience-item .mat-mdc-list-item-line {
+  white-space: normal;
+}
+
+.experience-item .mat-mdc-list-item-unscoped-content::before {
+  display: none;
+}
+
+.experience-item ul {
+  margin: 4px 0 8px;
+  padding-left: 20px;
+}
+
+.technologies {
+  margin-bottom: 12px;
+  white-space: normal;
+}
+
+/* Habilidades técnicas */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  padding: 8px 0;
+}
+
+.skill-group {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+.skill-group h3 {
+  color: #3c14aa;
+  font-weight: 500;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  background-color: #ece7f8;
+  color: #2c0f80;
+  border-radius: 16px;
+  padding: 4px 12px;
+  font-size: 13px;
+}
+
+/* Logros destacados */
+.accomplishments {
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 16px auto;
+}
+
+.accomplishments li {
+  margin-bottom: 12px;
+}
+
+.links {
+  display: flex;
+  gap: 8px;
+}
+

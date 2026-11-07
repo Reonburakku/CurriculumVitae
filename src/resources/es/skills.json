@@ -1,0 +1,39 @@
+{
+  "skills":{
+    "title":"Habilidades técnicas",
+    "list":[
+      {
+        "category":"Lenguajes y frameworks",
+        "items":["C#", ".NET / .NET Core", "ASP.NET", "JavaScript", "HTML5", "CSS3"]
+      },
+      {
+        "category":"Datos",
+        "items":["SQL Server (desarrollo, optimización y administración)", "MongoDB"]
+      },
+      {
+        "category":"Nube",
+        "items":["Microsoft Azure", "AWS (Certified Cloud Practitioner y Solutions Architect Associate)"]
+      },
+      {
+        "category":"Arquitectura",
+        "items":["Clean Architecture", "Arquitectura de microservicios", "Web APIs RESTful"]
+      },
+      {
+        "category":"Servicios de Azure",
+        "items":["Azure Functions", "Service Bus", "Blob Storage", "App Services"]
+      },
+      {
+        "category":"Integración",
+        "items":["Migraciones de Mulesoft a .NET", "Servicios de Windows para automatización de procesos"]
+      },
+      {
+        "category":"Prácticas",
+        "items":["Agile/Scrum (dailies, sprint planning, refinamiento del backlog)", "Git", "IIS", "Estimación y entrega de PBIs"]
+      },
+      {
+        "category":"Aprendiendo actualmente",
+        "items":["Pipelines de Azure DevOps", "React/TypeScript"]
+      }
+    ]
+  }
+}
